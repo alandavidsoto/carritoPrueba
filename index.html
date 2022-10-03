@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="row p-0 text-center">
+      <section
+        id="productos"
+        class="row m-0 text-center p-0 col-12 col-lg-6 col-xl-7"
+      ></section>
+      <div class="col-12 col-lg-6 col-xl-5 p-4">
+        <h3 class="h3 text-body text-center">
+          Tus productos <i class="bi bi-cart3"></i>
+        </h3>
+        <hr />
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col" style="width: 58%">Producto</th>
+              <th scope="col" style="width: 25%">cantidad</th>
+              <th scope="col" style="width: 17%">subtotal</th>
+            </tr>
+          </thead>
+          <tbody id="productos-carrito"></tbody>
+          <tfoot id="total-carrito">
+            <tr>
+              <th colspan="2">total</th>
+              <td colspan="" class="monto" fw-regular">$0</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js" type="module"></script>
+    <script>
+      function saymyname() {
+        console.log("hla");
+      }
+    </script>
+  </body>
+</html>
